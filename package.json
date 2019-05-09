@@ -1,0 +1,14 @@
+{
+    "name": "maths",
+    "private": true,
+    "engines": {
+        "node": ">=11.0"
+    },
+    "engineStrict": true,
+    "devDependencies": {
+        "mocha": "^6.1.4"
+    },
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha"
+    }
+}
