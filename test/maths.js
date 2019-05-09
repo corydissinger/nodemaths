@@ -2,10 +2,12 @@ try {
     if (global.gc) {
         global.gc();
     } else {
+        console.log("Nice try NERD, do it this way:");
         console.log("`npm run test -- --expose-gc`");
         process.exit();
     }
 } catch (e) {
+    console.log("Nice try NERD, do it this way:");
     console.log("`npm run test -- --expose-gc`");
     process.exit();
 }
